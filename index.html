@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .greentext {
+            background-color: #222222;
+            border-radius: 0.4em;
+            padding: 1em;
+
+        }
+        .greentext > p {
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #ffffff;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .greentext > p.green {
+            color: #44ff44;
+        }
+        .greentext > p.gray {
+            color: #c0c0c0;
+            font-style: italic;
+        }
+        .greentext > p.purple {
+            color: #8800ff;
+            font-weight: bolder;
+        }
+        .greentext > p.yellow {
+            color: #ffff44;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .greentext > p.orange {
+            color: #ff8844;
+        }
+        .greentext > p.blue {
+            color: #4444ff;
+            text-decoration: #4444ff solid underline;
+        }
+        .greentext > hr {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="inputf">
+
+    </textarea>
+    <div id="outputf" class="greentext" >
+
+    </div>
+    <button id="abtn">
+        apply
+    </button>
+    <script src="./index.js"></script>
+</body>
+</html>
