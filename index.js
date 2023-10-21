@@ -28,7 +28,6 @@ for (var j = 0; j < lines.length; j++) {
         } else {
         decode = `<p>${lines[j]}</p>`
         }
-    }
   out.innerHTML = `${out.innerHTML}
   ${decode}
   `
