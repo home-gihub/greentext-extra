@@ -11,7 +11,7 @@ for (var j = 0; j < lines.length; j++) {
         if (lines[j] == "---") {
             decode = `<hr>`
         } else if (lines[j].substring(0, 1) == "@") {
-            decode = `<img src="${lines[j]}"></img>`
+            decode = `<img src="${lines[j].substring(1,lines[j].length)"></img>`
         } else if (lines[j].substring(0, 1) == ">") {
             decode = `<p class="green">${lines[j]}</p>`
         } else if (lines[j].substring(0, 1) == "|") {
