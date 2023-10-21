@@ -8,11 +8,12 @@ var lines = inp.value.split('\n');    // lines is an array of strings
 out.innerHTML = null
 for (var j = 0; j < lines.length; j++) {
     console.log("line complete")
-    if (lines[j] == "---") {
-        decode = `<hr>`
-    } else {
-        firstLetter = lines[j].substring(0, 1)
-        if ( firstLetter == ">") {
+    firstLetter = lines[j].substring(0, 1)
+        if (lines[j] == "---") {
+            decode = `<hr>`
+        } else if ( firstletter == "@") {
+            decode = `<img src="${lines[j]}"></img>`
+        } else if ( firstLetter == ">") {
             decode = `<p class="green">${lines[j]}</p>`
         } else if ( firstLetter == "|") {
             decode = `<p class="gray">${lines[j]}</p>`
