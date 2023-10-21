@@ -51,6 +51,8 @@ you could remove the space between the syombol and the text for all of the above
 
 regular text
 
+`@img source`
+image, no space between the @
 
 # preview
 ![image](https://github.com/home-gihub/greentext-extra/assets/124263428/f5f1bb10-4053-40a8-b323-326b3aa80ae0)
