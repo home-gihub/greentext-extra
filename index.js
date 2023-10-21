@@ -30,7 +30,6 @@ for (var j = 0; j < lines.length; j++) {
         }
   out.innerHTML = `${out.innerHTML}
   ${decode}
-  `
-}}
+  `}}
 
 btn.addEventListener("click", f)
